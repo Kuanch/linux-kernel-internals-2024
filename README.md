@@ -5,20 +5,21 @@ Syllabus/Schedule: https://wiki.csie.ncku.edu.tw/linux/schedule
 
 This is a collection of the course materials and assignments for the course Linux Kernel Internals 2024 Spring at National Cheng Kung University. 
 
-:::info
->[name=Kuanch]
->This course is currently in progress and scheduled to conclude on July 2. The content on this page will be updated regularly throughout the duration of the course.
+---
+>**_NOTE:_**  
+>This course is currently in progress and scheduled to conclude on July 2.  
+The content on this page will be updated regularly throughout the duration of the course.
 >
 > You might be also interested on my degree essay about Point Cloud Segmentation [2DDATA](https://arxiv.org/abs/2309.11755) and [Image and Point Cloud Misamatch (SNPD 2023)](https://arxiv.org/abs/2309.14932).
 > 
 >課程將持續至 7 / 2，仍將持續更新內容
 >若您從履歷至此，亦可參考我的碩士論文 [2DDATA](https://arxiv.org/abs/2309.11755) 及 [Image and Point Cloud Misamatch (SNPD 2023)](https://arxiv.org/abs/2309.14932)
-:::
+---
 
 ## Assigment 1 (Due 3/4)
 Keyword: Circular Linked List in Linux Kernel, `container_of`, [Dude, is my code constant time?](https://eprint.iacr.org/2016/1123.pdf)
 
-[Assignment Requirements 作業說明](https://hackmd.io/@sysprog/linux2024-lab0/%2F%40sysprog%2Flinux2024-lab0-a)
+[Assignment Requirements 作業說明](https://hackmd.io/@sysprog/linux2024-lab0/%2F%40sysprog%2Flinux2024-lab0-a)  
 [Github](https://github.com/Kuanch/lab0-c)
 
 #### 重點節錄
@@ -41,7 +42,7 @@ Keyword: Timsort, Hash Table, LRU, Maple Tree, CPU affinity, `cpumaks`, `cpuset`
 ## Assigment 3 (Due 3/25)
 Keyword: Double replacing with Fixed Point, Fixed Point Arithmetic, Square and log, coroutine
 
-[Assignment Requirements 作業說明](https://hackmd.io/@sysprog/linux2024-ttt)
+[Assignment Requirements 作業說明](https://hackmd.io/@sysprog/linux2024-ttt)  
 [Github](https://github.com/Kuanch/lab0-c/tree/ttt)
 
 
@@ -70,7 +71,7 @@ Red Black Tree, Bitwise Square, Bitwise Disivion and Modular, Bitwise Log2, Bitw
 
 Keyword : CPU Scheduling, Completely Fair Scheduling (CFS), Energy Aware Scheduling (EAS), EEVDF
 
-Midterm Self Assessment and Term Project Proposal
+Midterm Self Assessment and Term Project Proposal  
 [Assignment Requirements 作業說明](https://hackmd.io/@sysprog/BySwQtt06)
 
 ---
@@ -88,10 +89,6 @@ Keyword: Linux Kernel Module, Concurrency Managed Workqueue (cmwq)
 
 ---
 
-## Assigment 7 (Due 5/13)
-Keyword: ktcp, sehttpd
-
----
 
 ## [Term Project](https://hackmd.io/@sysprog/rkJd7TFX0) (in progress)
 Keyword: EEVDF, EAS, QEMU and Buildroot, sched_ext
@@ -101,3 +98,4 @@ Keyword: EEVDF, EAS, QEMU and Buildroot, sched_ext
 * 以不同方式分析及測量 EEVDF, BORE, EAS 等排程器效能 (schbench)
 * 撰寫 Kernel Module 評估現有排程策略之效能 (EEVDF, EAS)
 * 嘗試以 sched_ext 撰寫簡單的排程器，並驗證其效能差異
+* 編撰 《Demystifying the Linux CPU Scheduler》之 EEVDF 等章節
