@@ -1,6 +1,6 @@
 # [Linux Kernel Internals 2024 Spring Collections](https://hackmd.io/@Kuanch/linux2024-collection) Overview
 
-Instructor: Jim Huang (黃敬群) <jserv.tw@gmail.com>
+Instructor: Jim Huang (黃敬群) <jserv.tw@gmail.com>  
 Syllabus/Schedule: https://wiki.csie.ncku.edu.tw/linux/schedule
 
 This is a collection of the course materials and assignments for the course Linux Kernel Internals 2024 Spring at National Cheng Kung University. 
@@ -93,10 +93,11 @@ Keyword: ktcp, sehttpd
 
 ---
 
-## Term Project (in progress)
+## [Term Project](https://hackmd.io/@sysprog/rkJd7TFX0) (in progress)
 Keyword: EEVDF, EAS, QEMU and Buildroot, sched_ext
 
 #### 重點節錄
 * 以 QEMU + remote GDB + Buildroot 整理 Linux Kernel Scheduler 調用
+* 以不同方式分析及測量 EEVDF, BORE, EAS 等排程器效能 (schbench)
 * 撰寫 Kernel Module 評估現有排程策略之效能 (EEVDF, EAS)
 * 嘗試以 sched_ext 撰寫簡單的排程器，並驗證其效能差異
